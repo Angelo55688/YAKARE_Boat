@@ -2,7 +2,13 @@
 This sub-repo contains the testing and demonstration code for the project YAKARE Boat.
 
 ## Prerequisites
-Make sure that you have all the prerequisites installed described in the main README.md file. Instructions can be found here [```README.md```](./../README.md).
+The prerequisite libraries used are installed using the installation command further down. A list of the required libraries and their versions can be found in [```requirements.txt```](./requirements.txt)
+
+## Installation
+To install the required libraries, run this bash command:
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 The project architecture is designed to bridge high-level computer vision with low-level hardware control on a Raspberry Pi.

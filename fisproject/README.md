@@ -2,11 +2,17 @@
 This sub-repo contains the conference code for the project YAKARE Boat.
 
 ## Prerequisites
-Make sure that you have all the prerequisites installed described in the main README.md file. Instructions can be found here [```README.md```](./../README.md).
+The prerequisite libraries used are installed using the installation command further down. A list of the required libraries and their versions can be found in [```requirements.txt```](./requirements.txt)
 
 **Additionally**, it is important that the local python environment is instantiated for the programs to work as intended. This is done by running this command in a terminal in the local directory:
 ```bash
 source venv/bin/activate
+```
+
+## Installation
+To install the required libraries, run this bash command:
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage

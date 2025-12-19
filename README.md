@@ -14,17 +14,15 @@ cd YAKARE_Boat
 ```
 
 ## Prerequisites
-The code was built and tested using Python 3.11.2, so functionality cannot be guaranteed using other versions.
-
-The following python libraries are used:
-```
-crcmod, csv, cv2, Flask, math, matplotlib, numpy, os, pandas, pigpio, scipy, serial, socket, struct, sys, threading, time
-```
+The code was built and tested using Python 3.11.2, so functionality cannot be guaranteed using other versions. This is true for both subfolders. Make sure to also install the required python packages using their respective requirements.txt files.
 
 ## Installation
-To install the required libraries, run this bash command:
+See the sub folders README.md files for installation instructions.
+
+New requirements.txt files can be generated using pipreqs. Execute the following bash commands in a terminal **in the local folder of the .py files**:
 ```bash
-pip install crcmod opencv-python Flask matplotlib numpy pandas pigpio pyserial scipy
+pip install pipreqs
+pipreqs .
 ```
 
 ## Usage
