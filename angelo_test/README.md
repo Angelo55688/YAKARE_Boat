@@ -27,7 +27,7 @@ Real-time PPM signals via *PPM_PIN* (GPIO 23) from an RC receiver.
 **Output**
 Real-time terminal telemetry showing channel values and motor pulse widths. It drives physical outputs on *L_PWM_PIN* (GPIO 13), *R_PWM_PIN* (GPIO 12), and *TRIGGER_PIN* (GPIO 24).
 
-** Functional Overview
+**Functional Overview**
 1. Signal Processing (PPM Decoding)
 The script uses a callback function on the *PPM_PIN* to measure the timing between falling edges of the incoming signal. It distinguishes between individual channels and frame gaps to populate a channels array with precise microsecond values representing the user's stick positions.
 
@@ -36,7 +36,7 @@ The navigation logic processes two primary inputs:
 + Throttle: Determines base speed for both motors, including a "deadband" to prevent creeping when the stick is centered.
 + Steering: Calculates a steering_effect that is added to one motor and subtracted from the other, enabling the vehicle to turn by varying the speeds of the left and right wheels.
 
-3. **Hardware Execution (PWM)**
+3. Hardware Execution (PWM)
 The pigpio library generates stable PWM hardware signals to control the connected actuators.
 + ESCs: Receive signals ranging from *ESC_MAX_REV* (1000µs) to *ESC_MAX_FWD* (2000µs) to control motor speed and direction.
 
