@@ -1,4 +1,4 @@
-# **YAKAREI_Boat**
+# **YAKARE_Boat**
 This project serves as a backup for the YAKARE boat project so that it can be rebuilt if it is destroyed during testing.
 
 ## About the Project
