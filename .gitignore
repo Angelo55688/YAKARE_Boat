@@ -1,1 +1,4 @@
 *.pptx
+.DS_Store
+*.lock
+.project_cache
